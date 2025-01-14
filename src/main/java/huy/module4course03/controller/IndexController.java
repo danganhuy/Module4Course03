@@ -12,6 +12,6 @@ public class IndexController {
 
     @GetMapping("")
     public String index() {
-        return "redirect:/customers";
+        return "redirect:/products";
     }
 }

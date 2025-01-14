@@ -17,7 +17,7 @@ public class CustomerService implements ICustomerService {
         customers.put(3, new Customer(3, "Alex", "alex@codegym.vn", "Sai Gon"));
         customers.put(4, new Customer(4, "Adam", "adam@codegym.vn", "Beijing"));
         customers.put(5, new Customer(5, "Sophia", "sophia@codegym.vn", "Miami"));
-        customers.put(6, new Customer(6, "Rose", "rose@codegym.vn", "NewYork"));
+        customers.put(6, new Customer(6, "Hoàng", "rose@codegym.vn", "NewYork"));
     }
 
     @Override

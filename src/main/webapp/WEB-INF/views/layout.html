@@ -2,7 +2,8 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head th:fragment="head">
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <title>Spring Customer</title>
@@ -34,7 +35,17 @@
             color: white;
         }
         
-        input[type=text],input[type=email]{
+        input[type=text],input[type=email],input[type=number]{
+            width: 100%;
+            padding: 12px 0;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        textarea {
             width: 100%;
             padding: 12px 0;
             margin: 8px 0;
@@ -73,7 +84,7 @@
 <body>
     
     <footer th:fragment="footer">
-        &copy; 2021 CodeGym
+        &copy; 2024 Huy
     </footer>
 </body>
 </html>
